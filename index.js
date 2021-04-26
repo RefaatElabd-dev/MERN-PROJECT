@@ -11,7 +11,10 @@ const app = express();
 //mongoose.connect('mongodb://localhost:27017/blog', { useUnifiedTopology: true });
 
 const url =
-  "mongodb+srv://nouraosama:dwni686737@cluster0.lz0az.mongodb.net/NodeUsersBlogs?retryWrites=true&w=majority";
+"mongodb+srv://refaat:7nGNGjBDTEUobusT@blogsys.5n3kd.mongodb.net/Blogsys?retryWrites=true&w=majority";
+
+  // "mongodb+srv://nouraosama:dwni686737@cluster0.lz0az.mongodb.net/NodeUsersBlogs?retryWrites=true&w=majority";
+
 mongoose
   .connect(url, {
     useNewUrlParser: true,
